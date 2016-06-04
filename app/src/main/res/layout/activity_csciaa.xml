@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.niu.cs.sindhujagundreddy.gradecalculator.Csciaa"
+    android:orientation="vertical"
+    android:background="#D7BDE2">
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:text="CSCI 240"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the marks you secured for the following Assignments"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold|italic"
+        android:textAlignment="center" />
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign1EditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_column="1"
+        android:textStyle="bold|italic"
+        android:hint="Assignment1"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign6EditText"
+        android:layout_marginLeft="40dp"
+        android:layout_column="2"
+        android:textStyle="bold|italic"
+        android:hint="Assignment6"/>
+    </TableRow>
+
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign2EditText"
+        android:layout_column="1"
+        android:textStyle="bold|italic"
+        android:hint="Assignment2" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign7EditText"
+        android:layout_marginLeft="40dp"
+        android:layout_column="2"
+        android:textStyle="bold|italic"
+        android:hint="Assignment7" />
+    </TableRow>
+
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign3EditText"
+        android:layout_column="1"
+        android:textStyle="bold|italic"
+        android:hint="Assignment3"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign8EditText"
+        android:layout_marginLeft="40dp"
+        android:layout_column="2"
+        android:textStyle="bold|italic"
+        android:hint="Assignment8" />
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign4EditText"
+        android:layout_column="1"
+        android:textStyle="bold|italic"
+        android:hint="Assignment4"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign9EditText"
+        android:layout_marginLeft="40dp"
+        android:layout_column="2"
+        android:textStyle="bold|italic"
+        android:hint="Assignment9"/>
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign5EditText"
+        android:layout_column="1"
+        android:textStyle="bold|italic"
+        android:hint="Assignment5"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/assign10EditText"
+        android:layout_marginLeft="40dp"
+        android:layout_column="2"
+        android:textStyle="bold|italic"
+        android:hint="Assignment10"/>
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextButton"
+        android:onClick="gotoExam"
+        android:layout_gravity="right"
+        android:layout_column="2"
+        android:textStyle="bold|italic"
+        android:textSize="20dp" />
+    </TableRow>
+
+</TableLayout>
